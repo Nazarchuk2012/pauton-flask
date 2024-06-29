@@ -36,3 +36,24 @@
     text-shadow: 2px 2px 2px white;
 
 }
+
+/* --- main ---*/
+
+.about{
+     background-color: black;
+     color: white;
+     font-size: 25px;
+     text-align: justify;
+     line-height: 40px;
+     padding: 50px 30px;
+}
+
+
+/* --- foter ---*/
+footer{
+    background-color: black;
+    color: white;
+    font-size:15px;
+    text-align: center
+    padding: 30px;
+}

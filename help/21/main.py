@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
+    # return "<h1>Моя сторінка на Flask 1</h1>"
     return render_template('index.html')
 
 
@@ -15,15 +16,7 @@ def login():
 
 @app.route('/about')
 def about():
-    return render_template('about.html')
-
-@app.route('/articles')
-def articles():
-    return render_template('articles.html')
-
-@app.route('/details')
-def details():
-    return render_template('details.html')
+    return "<h2>Про мене:</h2><p>Учень 7-го класу ЗОШ №111</p>"
 
 
 # Лише для локального сервера
