@@ -15,17 +15,19 @@ def login():
 
 @app.route('/about')
 def about():
-    return render_template('about.html')
+    return render_template('about.html', title='About')
+
 
 @app.route('/articles')
 def articles():
     return render_template('articles.html')
+
 
 @app.route('/details')
 def details():
     return render_template('details.html')
 
 
-# Лише для локального сервера
+# Лише для локаотного сервера (закоментувати)
 if __name__ == '__main__':
     app.run(debug=True)
